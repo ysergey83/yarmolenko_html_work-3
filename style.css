@@ -1,0 +1,107 @@
+html, body {
+  width: 1370px;
+  height: 950px;
+  background-color: #f9f9f9;
+}
+
+.wrapper {
+  width: 1060px;
+  height: 950px;
+  background-color: #ffffff;
+  margin: 0px 150px 40px 150px;
+  border-left: 2px solid #dbdbdb;
+  border-right: 2px solid #dbdbdb;
+}
+
+.header {
+  height: 70px;
+  padding: 50px 45px 0px 45px;
+  margin-bottom: 70px;
+}
+
+.main-menu {
+  height: 40px;
+  background-color: #595959;
+  margin-top: 40px;
+}
+
+.main-menu ul li {
+  float: left;
+}
+.main-menu ul li a{
+  color: #fff;
+  padding: 0 30px;
+  text-decoration: none;
+  line-height: 40px;
+  display: block;
+  height: 40px;
+}
+
+.main-menu ul li a:hover {
+  background-color: #444444;
+  color:#ffffff;
+}
+
+.sidebar {
+  width: 240px;
+  padding-top: 40px;
+  padding-left: 45px;
+  float: left;
+}
+
+.sidebar a {
+  display: block;
+  padding: 15px 0 15px 20px;
+  text-decoration: none;
+  color: #656363;
+  border: 1px solid #c8c8c8;
+}
+
+.sidebar a:hover {
+  background-color: #f9f9f9;
+}
+
+.bike {
+  width: 582px;
+  height: 350px;
+  margin: 110px 50px 40px 340px;
+  border: 1px solid #8c8c8c;
+  padding-top: 50px;
+  padding-left: 90px;
+}
+
+.content p {
+  width: 655px;
+
+  margin: 35px 0px 0px 350px;
+  font-family: Times;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.footer-menu {
+  width: 965px;
+  height: 40px;
+  background-color: #e1e1e1;
+  margin-top: 70px;
+  margin-left: 48px;
+}
+
+.footer-menu ul li {
+  float: left;
+}
+.footer-menu ul li a{
+  color: #2c2c2c;
+  padding: 0 30px;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+.footer-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.rights {
+  padding-left: 330px;
+  padding-top: 10px;
+}
