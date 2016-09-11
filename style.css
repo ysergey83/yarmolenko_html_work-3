@@ -1,16 +1,11 @@
 html, body {
   width: 1370px;
   height: 950px;
-  background-color: #f9f9f9;
 }
 
 .wrapper {
-  width: 1060px;
-  height: 950px;
   background-color: #ffffff;
   margin: 0px 150px 40px 150px;
-  border-left: 2px solid #dbdbdb;
-  border-right: 2px solid #dbdbdb;
 }
 
 .header {
@@ -28,6 +23,7 @@ html, body {
 .main-menu ul li {
   float: left;
 }
+
 .main-menu ul li a{
   color: #fff;
   padding: 0 30px;
@@ -35,6 +31,7 @@ html, body {
   line-height: 40px;
   display: block;
   height: 40px;
+  list-style: none;
 }
 
 .main-menu ul li a:hover {
@@ -55,10 +52,12 @@ html, body {
   text-decoration: none;
   color: #656363;
   border: 1px solid #c8c8c8;
+  list-style: none;
 }
 
 .sidebar a:hover {
   background-color: #f9f9f9;
+  padding-left: 30px;
 }
 
 .bike {
@@ -72,7 +71,6 @@ html, body {
 
 .content p {
   width: 655px;
-
   margin: 35px 0px 0px 350px;
   font-family: Times;
   font-size: 13px;
@@ -95,6 +93,7 @@ html, body {
   padding: 0 30px;
   text-decoration: none;
   line-height: 40px;
+  list-style: none;
 }
 
 .footer-menu ul li a:hover {
