@@ -22,6 +22,7 @@ html, body {
 
 .main-menu ul li {
   float: left;
+  list-style: none;
 }
 
 .main-menu ul li a{
@@ -31,7 +32,6 @@ html, body {
   line-height: 40px;
   display: block;
   height: 40px;
-  list-style: none;
 }
 
 .main-menu ul li a:hover {
@@ -41,18 +41,21 @@ html, body {
 
 .sidebar {
   width: 240px;
-  padding-top: 40px;
+  padding-top: 25px;
   padding-left: 45px;
   float: left;
 }
 
-.sidebar a {
+.sidebar ul li {
+  list-style: none;
+}
+
+.sidebar ul li a {
   display: block;
   padding: 15px 0 15px 20px;
   text-decoration: none;
   color: #656363;
   border: 1px solid #c8c8c8;
-  list-style: none;
 }
 
 .sidebar a:hover {
@@ -87,13 +90,14 @@ html, body {
 
 .footer-menu ul li {
   float: left;
+  list-style: none;
 }
+
 .footer-menu ul li a{
   color: #2c2c2c;
   padding: 0 30px;
   text-decoration: none;
   line-height: 40px;
-  list-style: none;
 }
 
 .footer-menu ul li a:hover {
@@ -101,6 +105,7 @@ html, body {
 }
 
 .rights {
-  padding-left: 330px;
-  padding-top: 10px;
+  padding-left: 260px;
+  padding-top: 0px;
+  line-height: 10px;
 }
