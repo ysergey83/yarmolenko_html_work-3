@@ -1,11 +1,12 @@
 html, body {
-  width: 1370px;
-  height: 950px;
+  background-color: #f9f9f9;
 }
 
 .wrapper {
   background-color: #ffffff;
   margin: 0px 150px 40px 150px;
+  border-right: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
 }
 
 .header {
@@ -105,7 +106,6 @@ html, body {
 }
 
 .rights {
-  padding-left: 260px;
-  padding-top: 0px;
-  line-height: 10px;
+  padding-left: 800px;
+  margin-top: -45px;
 }
